@@ -13,6 +13,7 @@
 		FEF07ACD1F0CD37000959A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF07ACB1F0CD37000959A29 /* Main.storyboard */; };
 		FEF07ACF1F0CD37000959A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF07ACE1F0CD37000959A29 /* Assets.xcassets */; };
 		FEF07AD21F0CD37000959A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF07AD01F0CD37000959A29 /* LaunchScreen.storyboard */; };
+		FEF07ADC1F0CD38400959A29 /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF07ADB1F0CD38400959A29 /* ArrowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FEF07ACE1F0CD37000959A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEF07AD11F0CD37000959A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEF07AD31F0CD37000959A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF07ADA1F0CD38400959A29 /* ArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowView.h; sourceTree = "<group>"; };
+		FEF07ADB1F0CD38400959A29 /* ArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		FEF07AC11F0CD37000959A29 /* ArrowView */ = {
 			isa = PBXGroup;
 			children = (
+				FEF07AD91F0CD38400959A29 /* ArrowView */,
 				FEF07AC51F0CD37000959A29 /* AppDelegate.h */,
 				FEF07AC61F0CD37000959A29 /* AppDelegate.m */,
 				FEF07AC81F0CD37000959A29 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				FEF07AC31F0CD37000959A29 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF07AD91F0CD38400959A29 /* ArrowView */ = {
+			isa = PBXGroup;
+			children = (
+				FEF07ADA1F0CD38400959A29 /* ArrowView.h */,
+				FEF07ADB1F0CD38400959A29 /* ArrowView.m */,
+			);
+			path = ArrowView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF07ADC1F0CD38400959A29 /* ArrowView.m in Sources */,
 				FEF07ACA1F0CD37000959A29 /* ViewController.m in Sources */,
 				FEF07AC71F0CD37000959A29 /* AppDelegate.m in Sources */,
 				FEF07AC41F0CD37000959A29 /* main.m in Sources */,
